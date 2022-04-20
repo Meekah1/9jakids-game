@@ -23,7 +23,8 @@ const PforHeader = styled.p`
 const PforHeader1 = styled.p`
   width: 120px;
   display: flex;
-  margin: auto;
+  margin: 20px;
+  padding-right: 40px;
   font-size: 14px;
   justify-content: space-between;
 `;
@@ -31,15 +32,13 @@ const PforHeader1 = styled.p`
 const PforHeader2 = styled.p`
   width: 500px;
   display: flex;
-  margin: auto;
+  padding: 40px;
+  margin-left: 20px;
   font-size: 14px;
   justify-content: space-between;
 `;
 
-// const Ptext = styled.p`
-//   /* font-family: 'Roboto'; */
-//   font-size: 14px;
-// `;
+
 
 const Header = () => {
   return (
